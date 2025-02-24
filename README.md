@@ -1,5 +1,5 @@
 # Finance Flow
-**Quickly wrap your web application into an app using Tauri."**
+**Quickly wrap your web application into an app using Tauri.**
 
 ![App Icon](src-tauri/icons/Square310x310Logo.png)
 
@@ -7,11 +7,11 @@
 
 ## windows
 ```cmd
-cargo tauri build --bundles nsis –verbose
+cargo tauri build --bundles nsis –-verbose
 ```
 OR
 ```cmd
-cargo tauri build --bundles msi –verbose
+cargo tauri build --bundles msi –-verbose
 ```
 ### for Chinese users
 ```cmd
@@ -19,7 +19,7 @@ cargo tauri build --bundles nsis --config '{"bundle":{"windows":{"nsis":{"langua
 ```
 OR
 ```cmd
-cargo tauri build --bundles msi --config '{"bundle":{"windows":{"wix":{"language":["zh-CN"]}}}}' –verbose
+cargo tauri build --bundles msi --config '{"bundle":{"windows":{"wix":{"language":["zh-CN"]}}}}' –-verbose
 ```
 
 ## linux
